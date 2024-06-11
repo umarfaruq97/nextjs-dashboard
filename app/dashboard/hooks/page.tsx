@@ -66,6 +66,14 @@ export default function Page() {
   return (
     <div>
       <div className="flex items-center text-3xl">Learning Hooks Page</div>
+      <div
+        className="cursor-pointer"
+        onClick={() => window.open('tel:900300400')}
+      >
+        option 1 <br></br>
+        <span>Phone: 900 300 400</span>
+      </div>
+      <a href="tel:+900300400">Option 2 : Phone: 900 300 400</a>
       <div className="mt-4">
         <h2 className="mb-4 text-2xl font-semibold text-blue-800">
           useState Hook
